@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>432</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Conversor de Audio para Texto</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Login_python/icons/espaco.png</normaloff>../Login_python/icons/espaco.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(184, 184, 184);</string>
+  </property>
+  <widget class="QTextEdit" name="txt_audio">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>382</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(227, 227, 227);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_gravar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>381</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(0, 255, 0);
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(170, 255, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Gravar</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txt_texto">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>88</y>
+     <width>382</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(227, 227, 227);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_limpar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>385</y>
+     <width>381</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(255, 85, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Limpar Arquivo</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Login_python/icons/img_user.qrc"/>
+ </resources>
+ <connections/>
+</ui>
