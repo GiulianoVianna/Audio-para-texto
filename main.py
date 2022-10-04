@@ -1,7 +1,6 @@
 
 import speech_recognition as sr
 from PyQt5 import uic, QtWidgets
-import time
 
 from sqlalchemy import true
 
